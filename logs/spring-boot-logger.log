@@ -1,0 +1,166 @@
+2022-10-23 15:56:18,474 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 19 on PHAMs-MacBook-Pro.local with PID 17528 (/Users/tuanpn/IdeaProjects/myproject/target/classes started by tuanpn in /Users/tuanpn/IdeaProjects/myproject)
+2022-10-23 15:56:18,475 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-23 15:56:18,476 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-23 15:56:18,834 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-10-23 15:56:18,837 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-23 15:56:18,837 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-23 15:56:18,837 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-23 15:56:18,869 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-23 15:56:18,869 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 375 ms
+2022-10-23 15:56:18,904 INFO org.quartz.impl.StdSchedulerFactory [main] Using default implementation for ThreadExecutor
+2022-10-23 15:56:18,908 INFO org.quartz.core.SchedulerSignalerImpl [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-10-23 15:56:18,908 INFO org.quartz.core.QuartzScheduler [main] Quartz Scheduler v.2.3.2 created.
+2022-10-23 15:56:18,908 INFO org.quartz.simpl.RAMJobStore [main] RAMJobStore initialized.
+2022-10-23 15:56:18,909 INFO org.quartz.core.QuartzScheduler [main] Scheduler meta-data: Quartz Scheduler (v2.3.2) 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-10-23 15:56:18,909 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2022-10-23 15:56:18,909 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler version: 2.3.2
+2022-10-23 15:56:18,909 INFO org.quartz.core.QuartzScheduler [main] JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@181b8c4b
+2022-10-23 15:56:19,004 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-10-23 15:56:19,010 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-23 15:56:19,011 INFO org.springframework.scheduling.quartz.SchedulerFactoryBean [main] Starting Quartz Scheduler now
+2022-10-23 15:56:19,011 INFO org.quartz.core.QuartzScheduler [main] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2022-10-23 15:56:19,015 INFO org.springframework.boot.StartupInfoLogger [main] Started MyprojectApplication in 0.682 seconds (JVM running for 5.992)
+2022-10-23 15:56:28,024 INFO org.quartz.core.QuartzScheduler [SpringApplicationShutdownHook] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED paused.
+2022-10-23 15:56:28,037 INFO org.springframework.scheduling.quartz.SchedulerFactoryBean [SpringApplicationShutdownHook] Shutting down Quartz Scheduler
+2022-10-23 15:56:28,037 INFO org.quartz.core.QuartzScheduler [SpringApplicationShutdownHook] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED shutting down.
+2022-10-23 15:56:28,038 INFO org.quartz.core.QuartzScheduler [SpringApplicationShutdownHook] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED paused.
+2022-10-23 15:56:28,038 INFO org.quartz.core.QuartzScheduler [SpringApplicationShutdownHook] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED shutdown complete.
+2022-10-23 16:05:26,368 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 19 on PHAMs-MacBook-Pro.local with PID 17595 (/Users/tuanpn/IdeaProjects/myproject/target/classes started by tuanpn in /Users/tuanpn/IdeaProjects/myproject)
+2022-10-23 16:05:26,368 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-23 16:05:26,369 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-23 16:05:26,717 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-10-23 16:05:26,721 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-23 16:05:26,721 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-23 16:05:26,721 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-23 16:05:26,751 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-23 16:05:26,751 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 365 ms
+2022-10-23 16:05:26,787 INFO org.quartz.impl.StdSchedulerFactory [main] Using default implementation for ThreadExecutor
+2022-10-23 16:05:26,791 INFO org.quartz.core.SchedulerSignalerImpl [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-10-23 16:05:26,791 INFO org.quartz.core.QuartzScheduler [main] Quartz Scheduler v.2.3.2 created.
+2022-10-23 16:05:26,791 INFO org.quartz.simpl.RAMJobStore [main] RAMJobStore initialized.
+2022-10-23 16:05:26,791 INFO org.quartz.core.QuartzScheduler [main] Scheduler meta-data: Quartz Scheduler (v2.3.2) 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-10-23 16:05:26,792 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2022-10-23 16:05:26,792 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler version: 2.3.2
+2022-10-23 16:05:26,792 INFO org.quartz.core.QuartzScheduler [main] JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@7fb29ca9
+2022-10-23 16:05:26,888 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-10-23 16:05:26,893 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-23 16:05:26,894 INFO org.springframework.scheduling.quartz.SchedulerFactoryBean [main] Starting Quartz Scheduler now
+2022-10-23 16:05:26,894 INFO org.quartz.core.QuartzScheduler [main] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2022-10-23 16:05:26,898 INFO org.springframework.boot.StartupInfoLogger [main] Started MyprojectApplication in 0.656 seconds (JVM running for 5.94)
+2022-10-23 16:05:41,924 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-23 16:05:41,925 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-23 16:05:41,925 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2022-10-23 16:05:42,024 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in mybatis/mapper/sql/mapper-user.xml
+### The error may involve User.selectAllUser
+### The error occurred while executing a query
+### Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] with root cause
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:576)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:666)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:191)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.doGetConnection(UnpooledDataSource.java:224)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.doGetConnection(UnpooledDataSource.java:219)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.getConnection(UnpooledDataSource.java:95)
+	at org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:446)
+	at org.apache.ibatis.datasource.pooled.PooledDataSource.getConnection(PooledDataSource.java:96)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:145)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.getConnection(JdbcTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:135)
+	at vn.bigthomas.myproject.test.mapper.UserRepositoryImpl.findAll(UserRepositoryImpl.java:40)
+	at vn.bigthomas.myproject.test.controller.TestController.getAllUsers(TestController.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2022-10-23 16:06:17,089 INFO org.quartz.core.QuartzScheduler [SpringApplicationShutdownHook] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED paused.
+2022-10-23 16:06:17,098 INFO org.springframework.scheduling.quartz.SchedulerFactoryBean [SpringApplicationShutdownHook] Shutting down Quartz Scheduler
+2022-10-23 16:06:17,099 INFO org.quartz.core.QuartzScheduler [SpringApplicationShutdownHook] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED shutting down.
+2022-10-23 16:06:17,099 INFO org.quartz.core.QuartzScheduler [SpringApplicationShutdownHook] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED paused.
+2022-10-23 16:06:17,099 INFO org.quartz.core.QuartzScheduler [SpringApplicationShutdownHook] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED shutdown complete.

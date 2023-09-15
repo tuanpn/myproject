@@ -1,0 +1,288 @@
+2022-10-02 15:56:25,907 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 19 on PHAMs-MacBook-Pro.local with PID 23903 (/Users/tuanpn/IdeaProjects/myproject/target/classes started by tuanpn in /Users/tuanpn/IdeaProjects/myproject)
+2022-10-02 15:56:25,908 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-02 15:56:25,909 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-02 15:56:26,246 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-10-02 15:56:26,250 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-02 15:56:26,250 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-02 15:56:26,250 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-02 15:56:26,283 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-02 15:56:26,283 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 350 ms
+2022-10-02 15:56:26,428 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-10-02 15:56:26,437 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-02 15:56:26,443 INFO org.springframework.boot.StartupInfoLogger [main] Started MyprojectApplication in 0.683 seconds (JVM running for 6.093)
+2022-10-02 15:56:34,569 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-02 15:56:34,569 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-02 15:56:34,572 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2022-10-02 15:59:12,242 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 19 on PHAMs-MacBook-Pro.local with PID 24064 (/Users/tuanpn/IdeaProjects/myproject/target/classes started by tuanpn in /Users/tuanpn/IdeaProjects/myproject)
+2022-10-02 15:59:12,243 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-02 15:59:12,244 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-02 15:59:12,591 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-10-02 15:59:12,594 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-02 15:59:12,595 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-02 15:59:12,595 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-02 15:59:12,624 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-02 15:59:12,624 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 345 ms
+2022-10-02 15:59:12,759 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-10-02 15:59:12,764 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-02 15:59:12,770 INFO org.springframework.boot.StartupInfoLogger [main] Started MyprojectApplication in 0.687 seconds (JVM running for 6.099)
+2022-10-02 15:59:21,252 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-02 15:59:21,253 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-02 15:59:21,256 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2022-10-02 16:00:13,049 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [Console]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [Console]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [Console]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [Console]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at vn.bigthomas.myproject.MyprojectApplication.main(MyprojectApplication.java:11)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [Console]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [Console]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [Console]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [Console]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 18 common frames omitted
+2022-10-02 16:01:29,094 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 19 on PHAMs-MacBook-Pro.local with PID 24233 (/Users/tuanpn/IdeaProjects/myproject/target/classes started by tuanpn in /Users/tuanpn/IdeaProjects/myproject)
+2022-10-02 16:01:29,095 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-02 16:01:29,095 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-02 16:01:29,387 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-10-02 16:01:29,390 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-02 16:01:29,391 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-02 16:01:29,391 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-02 16:01:29,420 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-02 16:01:29,420 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 306 ms
+2022-10-02 16:01:29,537 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-10-02 16:01:29,552 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-02 16:01:29,557 INFO org.springframework.boot.StartupInfoLogger [main] Started MyprojectApplication in 0.597 seconds (JVM running for 5.962)
+2022-10-02 16:01:40,418 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-02 16:01:40,419 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-02 16:01:40,420 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-10-02 16:04:37,849 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 19 on PHAMs-MacBook-Pro.local with PID 24446 (/Users/tuanpn/IdeaProjects/myproject/target/classes started by tuanpn in /Users/tuanpn/IdeaProjects/myproject)
+2022-10-02 16:04:37,850 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-02 16:04:37,850 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-02 16:04:38,154 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-10-02 16:04:38,157 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-02 16:04:38,157 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-02 16:04:38,157 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-02 16:04:38,185 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-02 16:04:38,185 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 315 ms
+2022-10-02 16:04:38,306 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-10-02 16:04:38,311 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-02 16:04:38,316 INFO org.springframework.boot.StartupInfoLogger [main] Started MyprojectApplication in 0.6 seconds (JVM running for 6.048)
+2022-10-02 16:04:43,561 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-02 16:04:43,561 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-02 16:04:43,562 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-10-02 16:04:43,799 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-8080-exec-1] ==>  Preparing: SELECT * FROM user;
+2022-10-02 16:04:43,807 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-8080-exec-1] ==> Parameters: 
+2022-10-02 16:04:43,819 TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-8080-exec-1] <==    Columns: id, email, name
+2022-10-02 16:04:43,819 TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-8080-exec-1] <==        Row: 1, someemail@someemailprovider.com, First
+2022-10-02 16:04:43,820 TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-8080-exec-1] <==        Row: 5, secondemail@someemailprovider.com, Second
+2022-10-02 16:04:43,820 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-8080-exec-1] <==      Total: 2
+2022-10-02 16:06:02,764 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-8080-exec-4] ==>  Preparing: INSERT INTO user (name, email) VALUES (?, ?);
+2022-10-02 16:06:02,768 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-8080-exec-4] ==> Parameters: Three(String), threeemail@someemailprovider.com(String)
+2022-10-02 16:06:02,776 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-8080-exec-4] <==    Updates: 1
+2022-10-02 16:06:30,093 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-8080-exec-5] ==>  Preparing: SELECT * FROM user;
+2022-10-02 16:06:30,094 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-8080-exec-5] ==> Parameters: 
+2022-10-02 16:06:30,097 TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-8080-exec-5] <==    Columns: id, email, name
+2022-10-02 16:06:30,098 TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-8080-exec-5] <==        Row: 1, someemail@someemailprovider.com, First
+2022-10-02 16:06:30,098 TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-8080-exec-5] <==        Row: 5, secondemail@someemailprovider.com, Second
+2022-10-02 16:06:30,098 TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-8080-exec-5] <==        Row: 6, threeemail@someemailprovider.com, Three
+2022-10-02 16:06:30,098 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-8080-exec-5] <==      Total: 3
+2022-10-02 21:01:06,517 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 19 on PHAMs-MacBook-Pro.local with PID 34574 (/Users/tuanpn/IdeaProjects/myproject/target/classes started by tuanpn in /Users/tuanpn/IdeaProjects/myproject)
+2022-10-02 21:01:06,518 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-02 21:01:06,518 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-02 21:01:06,831 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-10-02 21:01:06,834 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-02 21:01:06,835 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-02 21:01:06,835 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-02 21:01:06,861 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-02 21:01:06,861 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 324 ms
+2022-10-02 21:01:06,978 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-10-02 21:01:06,984 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-02 21:01:06,988 INFO org.springframework.boot.StartupInfoLogger [main] Started MyprojectApplication in 0.607 seconds (JVM running for 5.902)
+2022-10-02 21:01:06,998 INFO org.quartz.impl.StdSchedulerFactory [main] Using default implementation for ThreadExecutor
+2022-10-02 21:01:06,998 INFO org.quartz.simpl.SimpleThreadPool [main] Job execution threads will use class loader of thread: main
+2022-10-02 21:01:07,001 INFO org.quartz.core.SchedulerSignalerImpl [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-10-02 21:01:07,001 INFO org.quartz.core.QuartzScheduler [main] Quartz Scheduler v.2.3.2 created.
+2022-10-02 21:01:07,002 INFO org.quartz.simpl.RAMJobStore [main] RAMJobStore initialized.
+2022-10-02 21:01:07,002 INFO org.quartz.core.QuartzScheduler [main] Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-10-02 21:01:07,002 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-10-02 21:01:07,002 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler version: 2.3.2
+2022-10-02 21:01:07,002 INFO org.quartz.core.QuartzScheduler [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-10-02 21:02:03,893 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 19 on PHAMs-MacBook-Pro.local with PID 34640 (/Users/tuanpn/IdeaProjects/myproject/target/classes started by tuanpn in /Users/tuanpn/IdeaProjects/myproject)
+2022-10-02 21:02:03,894 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-02 21:02:03,894 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-02 21:02:04,167 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-10-02 21:02:04,170 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-02 21:02:04,170 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-02 21:02:04,171 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-02 21:02:04,196 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-02 21:02:04,196 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 287 ms
+2022-10-02 21:02:04,300 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-10-02 21:02:04,305 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-02 21:02:04,310 INFO org.springframework.boot.StartupInfoLogger [main] Started MyprojectApplication in 0.551 seconds (JVM running for 5.838)
+2022-10-02 21:02:04,317 INFO org.quartz.impl.StdSchedulerFactory [main] Using default implementation for ThreadExecutor
+2022-10-02 21:02:04,317 INFO org.quartz.simpl.SimpleThreadPool [main] Job execution threads will use class loader of thread: main
+2022-10-02 21:02:04,320 INFO org.quartz.core.SchedulerSignalerImpl [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-10-02 21:02:04,320 INFO org.quartz.core.QuartzScheduler [main] Quartz Scheduler v.2.3.2 created.
+2022-10-02 21:02:04,320 INFO org.quartz.simpl.RAMJobStore [main] RAMJobStore initialized.
+2022-10-02 21:02:04,321 INFO org.quartz.core.QuartzScheduler [main] Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-10-02 21:02:04,321 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-10-02 21:02:04,321 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler version: 2.3.2
+2022-10-02 21:02:04,321 INFO org.quartz.core.QuartzScheduler [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-10-02 21:02:40,487 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 19 on PHAMs-MacBook-Pro.local with PID 34678 (/Users/tuanpn/IdeaProjects/myproject/target/classes started by tuanpn in /Users/tuanpn/IdeaProjects/myproject)
+2022-10-02 21:02:40,489 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-02 21:02:40,489 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-02 21:02:40,799 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-10-02 21:02:40,802 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-02 21:02:40,803 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-02 21:02:40,803 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-02 21:02:40,832 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-02 21:02:40,832 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 322 ms
+2022-10-02 21:02:40,944 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-10-02 21:02:40,958 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-02 21:02:40,963 INFO org.springframework.boot.StartupInfoLogger [main] Started MyprojectApplication in 0.61 seconds (JVM running for 6.34)
+2022-10-02 21:02:40,972 INFO org.quartz.impl.StdSchedulerFactory [main] Using default implementation for ThreadExecutor
+2022-10-02 21:02:40,972 INFO org.quartz.simpl.SimpleThreadPool [main] Job execution threads will use class loader of thread: main
+2022-10-02 21:02:40,975 INFO org.quartz.core.SchedulerSignalerImpl [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-10-02 21:02:40,975 INFO org.quartz.core.QuartzScheduler [main] Quartz Scheduler v.2.3.2 created.
+2022-10-02 21:02:40,975 INFO org.quartz.simpl.RAMJobStore [main] RAMJobStore initialized.
+2022-10-02 21:02:40,976 INFO org.quartz.core.QuartzScheduler [main] Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-10-02 21:02:40,976 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-10-02 21:02:40,976 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler version: 2.3.2
+2022-10-02 21:02:40,976 INFO org.quartz.core.QuartzScheduler [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-10-02 21:04:34,763 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 19 on PHAMs-MacBook-Pro.local with PID 34794 (/Users/tuanpn/IdeaProjects/myproject/target/classes started by tuanpn in /Users/tuanpn/IdeaProjects/myproject)
+2022-10-02 21:04:34,765 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-02 21:04:34,765 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-02 21:04:35,062 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-10-02 21:04:35,066 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-02 21:04:35,066 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-02 21:04:35,066 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-02 21:04:35,095 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-02 21:04:35,095 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 309 ms
+2022-10-02 21:04:35,214 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-10-02 21:04:35,220 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-02 21:04:35,224 INFO org.springframework.boot.StartupInfoLogger [main] Started MyprojectApplication in 0.597 seconds (JVM running for 6.015)
+2022-10-02 21:04:35,233 INFO org.quartz.impl.StdSchedulerFactory [main] Using default implementation for ThreadExecutor
+2022-10-02 21:04:35,234 INFO org.quartz.simpl.SimpleThreadPool [main] Job execution threads will use class loader of thread: main
+2022-10-02 21:04:35,236 INFO org.quartz.core.SchedulerSignalerImpl [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-10-02 21:04:35,236 INFO org.quartz.core.QuartzScheduler [main] Quartz Scheduler v.2.3.2 created.
+2022-10-02 21:04:35,237 INFO org.quartz.simpl.RAMJobStore [main] RAMJobStore initialized.
+2022-10-02 21:04:35,237 INFO org.quartz.core.QuartzScheduler [main] Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-10-02 21:04:35,237 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-10-02 21:04:35,237 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler version: 2.3.2
+2022-10-02 21:04:35,237 INFO org.quartz.core.QuartzScheduler [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-10-02 21:05:40,515 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 19 on PHAMs-MacBook-Pro.local with PID 34856 (/Users/tuanpn/IdeaProjects/myproject/target/classes started by tuanpn in /Users/tuanpn/IdeaProjects/myproject)
+2022-10-02 21:05:40,516 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-02 21:05:40,516 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-02 21:05:40,824 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-10-02 21:05:40,827 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-02 21:05:40,827 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-02 21:05:40,827 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-02 21:05:40,855 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-02 21:05:40,855 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 320 ms
+2022-10-02 21:05:40,980 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-10-02 21:05:40,986 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-02 21:05:40,991 INFO org.springframework.boot.StartupInfoLogger [main] Started MyprojectApplication in 0.608 seconds (JVM running for 6.035)
+2022-10-02 21:05:41,001 INFO org.quartz.impl.StdSchedulerFactory [main] Using default implementation for ThreadExecutor
+2022-10-02 21:05:41,001 INFO org.quartz.simpl.SimpleThreadPool [main] Job execution threads will use class loader of thread: main
+2022-10-02 21:05:41,005 INFO org.quartz.core.SchedulerSignalerImpl [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-10-02 21:05:41,005 INFO org.quartz.core.QuartzScheduler [main] Quartz Scheduler v.2.3.2 created.
+2022-10-02 21:05:41,005 INFO org.quartz.simpl.RAMJobStore [main] RAMJobStore initialized.
+2022-10-02 21:05:41,005 INFO org.quartz.core.QuartzScheduler [main] Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-10-02 21:05:41,005 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-10-02 21:05:41,005 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler version: 2.3.2
+2022-10-02 21:05:41,005 INFO org.quartz.core.QuartzScheduler [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-10-02 21:07:04,381 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 19 on PHAMs-MacBook-Pro.local with PID 34935 (/Users/tuanpn/IdeaProjects/myproject/target/classes started by tuanpn in /Users/tuanpn/IdeaProjects/myproject)
+2022-10-02 21:07:04,382 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-02 21:07:04,382 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-02 21:07:04,659 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-10-02 21:07:04,662 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-02 21:07:04,662 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-02 21:07:04,663 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-02 21:07:04,689 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-02 21:07:04,689 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 291 ms
+2022-10-02 21:07:04,788 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-10-02 21:07:04,796 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-02 21:07:04,800 INFO org.springframework.boot.StartupInfoLogger [main] Started MyprojectApplication in 0.546 seconds (JVM running for 5.87)
+2022-10-02 21:07:04,808 INFO org.quartz.impl.StdSchedulerFactory [main] Using default implementation for ThreadExecutor
+2022-10-02 21:07:04,808 INFO org.quartz.simpl.SimpleThreadPool [main] Job execution threads will use class loader of thread: main
+2022-10-02 21:07:04,811 INFO org.quartz.core.SchedulerSignalerImpl [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-10-02 21:07:04,811 INFO org.quartz.core.QuartzScheduler [main] Quartz Scheduler v.2.3.2 created.
+2022-10-02 21:07:04,811 INFO org.quartz.simpl.RAMJobStore [main] RAMJobStore initialized.
+2022-10-02 21:07:04,811 INFO org.quartz.core.QuartzScheduler [main] Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-10-02 21:07:04,811 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-10-02 21:07:04,811 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler version: 2.3.2
+2022-10-02 21:07:04,812 INFO org.quartz.core.QuartzScheduler [main] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
