@@ -1,5 +1,3 @@
-package vn.bigthomas.myproject.security;
-
 import javax.crypto.Cipher;
 import java.io.File;
 import java.io.FileInputStream;
