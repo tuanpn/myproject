@@ -11,11 +11,15 @@ import java.util.Base64;
 public class Encrpytion {
 
     public static void main(String[] args) {
-        //encrypt();
-        decrypt(args[0]);//privateKey.rsa"
+        //encrypt("PHAM NGOC TUAN");
+        String param = "privateKey.rsa";
+        if (args.length > 0) {
+            param = args[0];
+        }
+        decrypt(param);
     }
 
-    public static void encrypt() {
+    public static void encrypt(String text) {
         try {
             // Đọc file chứa public key
             FileInputStream fis = new FileInputStream("publicKey.rsa");
@@ -31,8 +35,7 @@ public class Encrpytion {
             // Mã hoá dữ liệu
             Cipher c = Cipher.getInstance("RSA");
             c.init(Cipher.ENCRYPT_MODE, pubKey);
-            String msg = "helloworld";
-            byte encryptOut[] = c.doFinal(msg.getBytes());
+            byte encryptOut[] = c.doFinal(text.getBytes());
             String strEncrypt = Base64.getEncoder().encodeToString(encryptOut);
             System.out.println("Chuỗi sau khi mã hoá: " + strEncrypt);
 
@@ -58,7 +61,7 @@ public class Encrpytion {
             Cipher c = Cipher.getInstance("RSA");
             c.init(Cipher.DECRYPT_MODE, priKey);
             byte decryptOut[] = c.doFinal(Base64.getDecoder().decode(
-                    "WxjT4tTuyQ4YZAxF7Vv6FSM6/XRi+z0y5Myawhg2WA55xEQ1lbsApMjRj+rDlLGz3/aTovxGdUr8PUc6VPyDYso/K59+S7ntlYD/CpUHLblti4o2qc/kNqhfZtv4RQhsjIJ5vltbpCQMe6GYFEAXLQGb0wEmy0xwrQVNbkHvi30="));
+                    "BfG5Wf4fJnohakrCFB/O4+UVgxYb7CEFaSxhHn9Cr+k96Ax3Iue/SD0tCgJdQMiJIHqwWjopDcfixM5+cRk6ZVt+snNr/vgB4iNeu8QgKwY31SujPleIrS95GD1e6EBooQ8GncFHwNlXiw5ge0FX5s4J31C2B1/i9WTKqG82bV8="));
             System.out.println("Dữ liệu sau khi giải mã: " + new String(decryptOut));
         } catch (Exception ex) {
             ex.printStackTrace();
